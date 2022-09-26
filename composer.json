@@ -1,0 +1,27 @@
+{
+  "name": "plattry/orm",
+  "description": "The plattry orm package",
+  "keywords": [
+    "plattry",
+    "orm",
+    "postgresql"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Plattry\\Orm\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Aaron Lee",
+      "email": "sixser@foxmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1",
+    "ext-pdo": "*"
+  }
+}
